@@ -1,0 +1,193 @@
+/* Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Padrão de cores */
+:root{
+    --azulclaro: #f0f2f5;
+    --azulescuro: #1877f2;
+    --branco: #fff;
+    --preto: #222222;
+    --verde: #42b72a;
+}
+
+/* Corpo */
+body{
+    background: var(--azulclaro);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* agrupamento de todos os box model */
+#viewport{
+    width: 1343px;
+    height: 536px;
+    padding: 72px 0px 112px 0px;
+}
+
+#container{
+    width: 980px;
+    height: 496px;
+    margin: auto;
+    padding: 20px 0px;
+    background: var(--azulclaro);
+    display: flex;
+    justify-content: center;
+}
+
+#group1{
+    padding: 0px 32px 0px 0px;
+    width: 580px;
+    height: 298px;
+    text-align: start;
+}
+
+#logo{
+    padding: 112px 0px 16px 0px;
+    width: 548px;
+}
+
+#logo img{
+    margin: -28px;
+}
+
+#paragrafo{
+    padding: 0px 0px 20px 0px;
+    width: 500px;
+    height: 96px;
+    font-size: 28px;
+}
+
+#group2{
+    width: 396px;
+    height: 458px;
+}
+
+#conteudo{
+    align-items: center;
+    padding: 10px 0px 24px 0px;
+    width: 396px;
+    height: 349px;
+    background: var(--branco);
+    border-radius: 8px;
+    margin: 40px 0px 0px 0px; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+}
+
+#dados{
+    width: 396px;
+    height: 132px;
+    display: inline-block;
+}
+
+.card{
+    width: 364px;
+    height: 52px;
+    padding: 14px 16px;
+    margin: 10px 16px;
+    border: solid gainsboro 1px;
+    border-radius: 6px;
+}
+
+input{
+    width: 300px;
+    height: 22px;
+    font-size: 17px;
+    text-align: start;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.card input{
+    color: var(--preto);
+    opacity: 0.5;
+}
+
+#entrar{
+    background: var(--branco);
+    width: 396px;
+    height: 56px;
+    padding: 6px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+#entrar button{
+    background: var(--azulescuro);
+    color: var(--branco);
+    width: 364px;
+    height: 48px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+#entrar button:hover{
+    background: #166FE5;
+    cursor: pointer;
+}
+
+#ajuda{
+    width: 396px;
+    height: 18px;
+    color: var(--azulescuro);
+    margin: 16px 0px 0px 0px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#ajuda a{
+    color: var(--azulescuro);
+}
+
+#ajuda:hover{
+    cursor: pointer;
+}
+
+#linha{
+    width: 364px;
+    margin: 20px 16px;
+    opacity: 0.3;
+}
+
+#criar {
+    width: 396px;
+    height: 54px;
+    padding: 6px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#criar button{
+    background: var(--verde);
+    color: var(--branco);
+    width: 166.16px;
+    height: 48px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 0px 16px;     
+}
+
+#criar button:hover{
+    background: #36A420;
+    cursor: pointer;
+}
+
+#text{
+    width: 396px;
+    height: 18px;
+    margin: 28px 0px 0px 0px;
+}
+
+#text p, a{
+    color: var(--preto);
+    font-size: 14px;
+    text-align: center;
+}
